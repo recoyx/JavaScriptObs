@@ -1,0 +1,22 @@
+{
+  "name": "com.recoyxgroup.javascript.obs",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/recoyx/JavaScriptObs%C2%83.git"
+  },
+  "keywords": [
+    "observable"
+  ],
+  "author": "hydroper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/recoyx/JavaScriptObs%C2%83/issues"
+  },
+  "homepage": "https://github.com/recoyx/JavaScriptObs%C2%83#readme"
+}
