@@ -2,12 +2,14 @@
 
 ## API
 
-### `Observable`
+##### `Observable`
 
-### `[object Observable].value`
+##### `[object Observable].value`
 
-### `[object Observable].get()`
+##### `[object Observable].get()`
 
-### `[object Observable].set()`
+##### `[object Observable].set()`
 
-### `[object Observable].setListener()`
+##### `[object Observable].addListener()`
+
+##### `[object Observable].removeListener()`

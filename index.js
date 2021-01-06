@@ -8,6 +8,10 @@ export class Observable {
         return this._value;
     }
 
+    set value(value) {
+        this.set(value);
+    }
+
     get() {
         return this._value;
     }
@@ -18,12 +22,13 @@ export class Observable {
             fn(this._value);
     }
 
-    setListener(fn) {
+    addListener(fn) {
         this._listeners.push(fn);
         fn(this._value);
-        return () => {
-            let i = this._listeners.indexOf(fn);
-            if (i != -1) this._listeners.splice(i, 1);
-        };
+    }
+
+    removeListener(fn) {
+        let i = this._listeners.indexOf(fn);
+        if (i != -1) this._listeners.splice(i, 1);
     }
 }

@@ -1,6 +1,6 @@
 {
   "name": "com.recoyxgroup.javascript.obs",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/recoyx/JavaScriptObs%C2%83.git"
+    "url": "git+https://github.com/Recoyx/JavaScriptObs.git"
   },
   "keywords": [
     "observable"
@@ -16,7 +16,7 @@
   "author": "hydroper",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/recoyx/JavaScriptObs%C2%83/issues"
+    "url": "https://github.com/Recoyx/JavaScriptObs/issues"
   },
-  "homepage": "https://github.com/recoyx/JavaScriptObs%C2%83#readme"
+  "homepage": "https://github.com/Recoyx/JavaScriptObs#readme"
 }
